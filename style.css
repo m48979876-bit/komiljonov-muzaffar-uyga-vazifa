@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: brown;
+    font-family: Arial;
+}
+
+h1{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+}
+
+.chap{
+    width: 320px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card i{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-instagram{
+    color: deeppink;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+.card p{
+    margin-bottom: 20px;
+    color: gray;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+.ong{
+    width: 900px;
+    height: 780px;
+    background-color: beige;
+    border: 1px solid black;
+    margin-left: 20px;
+}
